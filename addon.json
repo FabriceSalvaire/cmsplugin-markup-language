@@ -1,0 +1,6 @@
+{
+    "package-name": "cmsplugin-markup-language",
+    "installed-apps": [
+	"cmsplugin_markup_language"
+    ]
+}

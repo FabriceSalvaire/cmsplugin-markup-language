@@ -1,0 +1,6 @@
+{% load cms_tags %}
+{{ content }}
+{# Call render_plugin on each child so as to register it in the toolbar #}
+{% for plugin in instance.child_plugin_instances %}
+    {% render_plugin plugin %}
+{% endfor %}
